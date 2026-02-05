@@ -88,7 +88,7 @@ class BMWSalesData:
             ('OneHot-Encoder', trf1, cat_onehot)
         ])
 
-        # Encoding the traget variable
+        # Encoding the target variable
         self.data['Sales_Classification'] = self.data['Sales_Classification'].map({'Low': 0, 'High': 1})
 
         # Creating the final pipeline with preprocessor and Decisiontree classifier
@@ -133,7 +133,7 @@ class BMWSalesData:
             ('OneHot-Encoder', trf1, cat_onehot)
         ])
 
-        # Encoding the traget variable
+        # Encoding the target variable
         self.data['Sales_Classification'] = self.data['Sales_Classification'].map({'Low': 0, 'High': 1})
 
         # Creating the final pipeline with preprocessor and Decisiontree classifier
