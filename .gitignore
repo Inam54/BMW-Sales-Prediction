@@ -1,0 +1,6 @@
+node_modulus
+Dataset/
+.vscode/
+.idea/
+venv/
+.env/
