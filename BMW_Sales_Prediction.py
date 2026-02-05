@@ -91,7 +91,7 @@ class BMWSalesData:
         # Encoding the target variable
         self.data['Sales_Classification'] = self.data['Sales_Classification'].map({'Low': 0, 'High': 1})
 
-        # Creating the final pipeline with preprocessor and Decisiontree classifier
+        # Creating the final pipeline with preprocessor and DecisionTree classifier
         pipe = Pipeline([
             ('preprocessing', preprocessor),
             ('Model', DecisionTreeClassifier(
