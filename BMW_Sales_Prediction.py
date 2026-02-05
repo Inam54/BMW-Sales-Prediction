@@ -100,8 +100,7 @@ class BMWSalesData:
     min_samples_split=40,
     class_weight='balanced',
     random_state=42
-)
-)
+    ))
         ])
 
         # Splitting the data into features and target variable 
@@ -146,7 +145,7 @@ class BMWSalesData:
     max_features='sqrt',
     class_weight='balanced',
     random_state=42
-            ))
+    ))
         ])
 
         # Splitting the data into features and target variable 
